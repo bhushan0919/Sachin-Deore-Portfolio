@@ -1,140 +1,210 @@
-# Bhushan Gavhane — Developer Portfolio
+# Sachin Santosh Deore — DevOps & Cloud Engineer Portfolio
 
-A production-quality personal portfolio website engineered for **Bhushan Gavhane**, Computer Engineering graduate (Sinhgad Institute of Technology, Pune • **8.56 CGPA**) and Full-Stack MERN Web Developer.
+[![Vite](https://img.shields.io/badge/Vite-8.x-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-19.x-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-7.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![AWS](https://img.shields.io/badge/AWS-EKS%20%7C%20EC2%20%7C%20S3-FF9900?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?logo=jenkins&logoColor=white)](https://www.jenkins.io/)
+[![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-E6522C?logo=prometheus&logoColor=white)](https://prometheus.io/)
+[![Grafana](https://img.shields.io/badge/Grafana-Observability-F46800?logo=grafana&logoColor=white)](https://grafana.com/)
 
-Designed with modern dark aesthetics inspired by top-tier developer platforms (Linear, Vercel, Supabase), featuring interactive product mockups, smooth motion animations, and verified academic & project details.
+A modern personal portfolio website built for **Sachin Santosh Deore**, **DevOps Engineer** at Hisan Labs Pvt. Ltd. and Computer Engineering student at **Sinhgad Institute of Technology (9.25 / 10 CGPA)**.
+
+Crafted with dark developer-first aesthetics (inspired by Vercel, Supabase, and Grafana), featuring interactive Kubernetes pod simulations, Jenkins CI/CD pipeline trackers, real-time observability mockups, and a built-in downloadable/printable PDF resume viewer.
 
 ---
 
-## 🚀 Live Demo & Contact
-- **Live Portfolio**: [bhushangavhane.netlify.app](https://bhushangavhane.netlify.app)
-- **Email**: [bhushangavhane06@gmail.com](mailto:bhushangavhane06@gmail.com)
-- **Phone**: [+91 9373120370](tel:+919373120370)
-- **LinkedIn**: [linkedin.com/in/bhushan-gavhane](https://linkedin.com/in/bhushan-gavhane)
-- **GitHub**: [github.com/bhushan0919](https://github.com/bhushan0919)
+## 👨‍💻 About Sachin
+
+DevOps Engineer with hands-on experience in CI/CD automation, cloud infrastructure (AWS), Docker containerization, Kubernetes orchestration, and Infrastructure as Code (Terraform). Skilled in building and deploying scalable applications, improving release reliability, and ensuring secure, efficient deployments using monitoring and DevSecOps practices.
+
+- 📍 **Location**: Pune, Maharashtra, India
+- 📧 **Email**: [deoressachin@gmail.com](mailto:deoressachin@gmail.com)
+- 📞 **Phone**: [+91 9146504014](tel:+919146504014)
+- 💼 **LinkedIn**: [linkedin.com/in/sachin-sdeore](http://linkedin.com/in/sachin-sdeore)
+- 🐙 **GitHub**: [github.com/sachdeore](https://github.com/sachdeore)
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack & Tooling
 
-- **Core**: React 19 + TypeScript
-- **Bundler & Dev Server**: Vite 8
-- **Styling**: Tailwind CSS v4 with custom dark design tokens
-- **Motion & Animations**: Motion (`motion/react`)
-- **Iconography**: Lucide React + custom SVGs
-- **Typography**: Inter & JetBrains Mono (via Google Fonts)
+| Domain | Technologies & Tools |
+| :--- | :--- |
+| **Cloud Platforms** | AWS (EKS, EC2, S3, EBS, VPC, IAM, Subnets, Security Groups), Azure (AZ-900) |
+| **Containers & Orchestration** | Docker, Kubernetes, Helm, Nginx Ingress Controller |
+| **IaC & Automation** | Terraform, Ansible, Jenkins (CI/CD Pipelines), Bash / Shell Scripting, YAML |
+| **Monitoring & SRE** | Prometheus, Grafana, Alertmanager, Node Exporter, kube-state-metrics |
+| **DevSecOps & Code Quality** | SonarQube (SAST), Trivy (Container Vulnerability Scanner) |
+| **Version Control & OS** | Git, GitHub, Linux (Ubuntu/Debian, CentOS/RHEL, Amazon Linux), Windows |
+| **Portfolio Architecture** | React 19, TypeScript, Tailwind CSS v4, Motion (`motion/react`), Lucide React, Vite 8 |
+
+---
+
+## 🚀 Key Features
+
+### 1. Interactive DevOps Workstation (Hero Section)
+- **Status Badges**: `DEVSECOPS & CLOUD INFRASTRUCTURE` with live CGPA (`9.25 / 10`).
+- **Interactive Terminal Console**:
+  - `devops.ts`: Structured profile specification in TypeScript.
+  - `kubectl-get-pods.sh`: Simulated real-time `kubectl get pods -n production -o wide` cluster output.
+- Quick copy snippet feature with animated feedback.
+- Floating tech indicators for **AWS EKS**, **Kubernetes**, **Terraform**, and **Grafana**.
+
+### 2. Featured Production Architectures & Interactive Mockups
+- **Deployment of a Three-Tier Application on AWS EKS (Flagship)**:
+  - Containerized multi-tier microservices on managed AWS EKS.
+  - Automated Jenkins multi-stage build-test-deploy pipelines.
+  - Integrated DevSecOps quality gates with **SonarQube** code analysis & **Trivy** vulnerability scanning.
+  - Infrastructure provisioned with **Terraform (IaC)** and configured with **Ansible**.
+  - **Interactive Mockup**: Multi-tab switcher previewing *Jenkins Pipeline*, *3-Tier Cluster Topology*, and *DevSecOps Gates*.
+  - [View Repository](https://github.com/sachdeore/DevOps-Project-Zomato.git)
+- **Monitoring & Observability with Prometheus & Grafana**:
+  - End-to-end Kubernetes cluster metrics collection using Prometheus, `kube-state-metrics`, and `Node Exporter`.
+  - Custom Grafana dashboards for cluster utilization, memory, CPU, and network I/O.
+  - Proactive alerting rules configured with Alertmanager.
+  - **Interactive Mockup**: Live metrics stream, worker node utilization, and active alert rules.
+  - [View Repository](https://github.com/sachdeore)
+
+### 3. Professional Experience Timeline
+- **Jr. DevOps Engineer** at **Hisan Labs Pvt. Ltd. | Pune** (Present):
+  - Git/GitHub version control & smooth team release collaboration.
+  - Docker containerization and deployment on production Kubernetes.
+  - Infrastructure provisioning using Terraform and task automation with Ansible.
+  - Jenkins CI/CD pipeline automation for builds, tests, and deployments.
+  - Prometheus and Grafana system performance tracking & alerts.
+  - Linux server administration and troubleshooting.
+
+### 4. Categorized Skills Toolkit
+- **DevOps Tools & Technologies**: Docker, Kubernetes, Terraform, Ansible, Jenkins, Helm, Prometheus, Grafana, SonarQube, Trivy, Linux, Bash.
+- **Cloud Infrastructure**: AWS EKS, EC2, S3, EBS, VPC, IAM, Security Groups, High Availability.
+- **Networking Fundamentals**: IP Addressing, DNS, TCP/IP, Firewalls, Load Balancing (ALB/NLB), Ingress Controllers.
+- **Behavioral & Leadership**: Leadership, Decision Making, Communication, Technical Documentation.
+
+### 5. Verified Education & Certifications
+- **Bachelor’s of Engineering (Computer Engineering)**: Sinhgad Institute of Technology, Lonavala (2023 – 2026) — **9.25 / 10 CGPA**
+- **Diploma in Computer Technology**: SNJB'S H.H.J.B Polytechnic College, Nashik (2020 – 2023) — **84.06% (Distinction)**
+- **Microsoft Certified: Azure Fundamentals (AZ-900)**
+- **Oracle Cloud Infrastructure 2025 – AI Foundations Associate**
+
+### 6. Built-in Resume Viewer & Downloader
+- Formatted modal preview of [`Sachin_Deore_Resume.pdf`](public/Sachin_Deore_Resume.pdf).
+- Direct **Download PDF** button and print-optimized styling (`window.print()`).
+
+### 7. Functional Contact Hub
+- Direct inquiry form with client-side field validation.
+- One-click copy for email (`deoressachin@gmail.com`) and phone (`+91 9146504014`).
+- Direct links to LinkedIn and GitHub.
 
 ---
 
 ## 📂 Project Structure
 
 ```
-c:\Users\vyank\OneDrive\Desktop\BG_portfolio\
-├── index.html                   # HTML template, SEO tags, Open Graph, Favicon monogram
+Sachin Portfolio/
+├── index.html                   # HTML template, SEO tags, Open Graph, Monogram favicon
 ├── package.json                 # Dependency configuration & scripts
-├── vite.config.ts               # Vite configuration with Tailwind CSS v4 plugin
+├── vite.config.ts               # Vite configuration with Tailwind CSS v4
+├── server.js                    # Optional Node.js contact endpoint / production server
+├── public/
+│   ├── sachin-profile.jpg       # Profile picture
+│   ├── Sachin_Deore_Resume.pdf  # PDF Resume
+│   ├── favicon.svg              # SVG favicon
+│   └── icons.svg
 ├── src/
 │   ├── main.tsx                 # React entry point
-│   ├── App.tsx                  # Root component, scroll progress, section layout
-│   ├── index.css                # Tailwind base styles, dark theme, and grid utilities
+│   ├── App.tsx                  # Root layout, sticky progress bar & modals
+│   ├── index.css                # Tailwind CSS v4 styling & dark theme tokens
+│   ├── context/
+│   │   └── ThemeContext.tsx     # Light / Dark theme state management
+│   ├── data/
+│   │   └── portfolio.ts         # Single source of truth for all resume & project data
 │   ├── components/
-│   │   ├── Icons.tsx            # Custom SVG icons (GitHub, LinkedIn)
-│   │   ├── Navbar.tsx           # Sticky navigation with active spy & mobile drawer
+│   │   ├── Navbar.tsx           # Sticky navigation with scroll spy & mobile menu
 │   │   ├── SectionHeading.tsx   # Reusable section heading with entrance motion
 │   │   ├── SocialLinks.tsx      # Social buttons with quick-copy email feedback
-│   │   ├── ProjectMockups.tsx   # Custom high-fidelity mockups (Pujanam, Agri, Estimator)
 │   │   ├── ProjectCard.tsx      # Two-column case study showcase cards
+│   │   ├── ProjectMockups.tsx   # High-fidelity mockups (AWS EKS & Grafana)
 │   │   ├── ProjectModal.tsx     # Deep-dive architecture inspection modal
-│   │   ├── SkillCategory.tsx    # Factual categorized skills grid (no fake percentages)
-│   │   ├── ExperienceTimeline.tsx # Vertical timeline for verified internships
-│   │   ├── EducationCard.tsx    # Academic credentials cards (B.E. 8.56 CGPA, Diploma, SSC)
-│   │   ├── ResumeModal.tsx      # In-browser formatted resume viewer & print/PDF handler
-│   │   └── Footer.tsx           # Monogram brand, links, and back-to-top button
-│   ├── sections/
-│   │   ├── Hero.tsx             # Two-column hero with developer workstation & tech strip
-│   │   ├── About.tsx            # Resume-grounded profile narrative & factual highlights
-│   │   ├── Skills.tsx           # 6 categorized skill categories
-│   │   ├── Projects.tsx         # 3 verified full-stack case studies
-│   │   ├── Experience.tsx       # Data Science & Django web dev internships
-│   │   ├── Education.tsx        # B.E. Computer Engineering, Diploma & SSC
-│   │   ├── Certifications.tsx   # Azure AZ-900 & Godrej Data Analytics certifications
-│   │   └── Contact.tsx          # Direct communication hub & email composer with validation
-│   └── data/
-│       └── portfolio.ts         # Single source of truth for resume details & links
+│   │   ├── SkillCategory.tsx    # Categorized skill cards with visual icons
+│   │   ├── ExperienceTimeline.tsx # Vertical timeline for work experience
+│   │   ├── EducationCard.tsx    # Academic credentials cards (B.E. & Diploma)
+│   │   ├── ResumeModal.tsx      # In-browser resume viewer with print & download
+│   │   ├── ThemeToggle.tsx      # Light/Dark mode switcher
+│   │   └── Footer.tsx           # Footer with quick links & back-to-top button
+│   └── sections/
+│       ├── Hero.tsx             # Two-column hero with interactive DevOps console
+│       ├── About.tsx            # Profile narrative & core engineering pillars
+│       ├── Skills.tsx           # 4 categorized skill groups
+│       ├── Projects.tsx         # Featured cloud & observability case studies
+│       ├── Experience.tsx       # Hisan Labs professional timeline
+│       ├── Education.tsx        # B.E. & Diploma academic credentials
+│       ├── Certifications.tsx   # AZ-900 & OCI AI 2025 certifications
+│       └── Contact.tsx          # Direct communication hub & contact form
 ```
 
 ---
 
-## 🌟 Key Features
-
-1. **Two-Column Hero & Interactive Workstation**:
-   - Status badge: `COMPUTER ENGINEERING GRADUATE • CGPA 8.56`
-   - Interactive IDE window toggling between `developer.ts` and `api-auth.json` (JWT response preview).
-   - Floating technology badges with subtle glow indicators.
-   - Slim technology competency strip.
-
-2. **Flagship Case Study Gallery**:
-   - **Pujanam (Flagship)**: Pandit Booking & Puja Services Platform (MERN, Cloudinary, JWT RBAC). Features multi-tab interactive mockup: *Services Catalog*, *Booking Flow*, and *Pandit Portal*.
-   - **Agriculture Platform**: Direct farm-to-consumer & restaurant marketplace (MERN, MongoDB). Features *Direct Market*, *Farmer Inventory*, and *Live Orders* tabs.
-   - **Building Construction Estimator**: Responsive construction cost & material estimation calculator (PHP, JS, MySQL, Bootstrap). Features interactive Built-Up Area, Floors, and Quality controls with real-time recalculation.
-   - **Inspect Case Study Modal**: Deep dive into architecture, problem statement, solution, and verified technical implementations.
-
-3. **In-Browser Resume Viewer**:
-   - Integrated formatted resume modal matching Bhushan's exact verified credentials.
-   - One-click **Print / Save PDF** support with print-optimized CSS layout.
-
-4. **100% Verified Details**:
-   - Strictly factual: No fabricated client counts, no fake years of commercial experience, and no subjective progress percentage bars.
-
-5. **Direct & Accessible Contact Hub**:
-   - Direct `mailto:` composer with client-side field validation and native mail client invocation.
-   - Instant copy-to-clipboard for email (`bhushangavhane06@gmail.com`) and phone (`+91 9373120370`).
-   - Click-to-call mobile integration.
-
-6. **Full Responsiveness & Accessibility**:
-   - Mobile drawer with backdrop blur.
-   - Reduced-motion accessibility checks (`prefers-reduced-motion`).
-   - Visible keyboard focus indicators and semantic HTML5 landmark tags.
-
----
-
-## ⚡ Getting Started Locally
+## 💻 Getting Started Locally
 
 ### Prerequisites
-- Node.js (v18 or higher recommended, tested on Node v22)
-- npm (v9 or higher)
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or `pnpm` / `yarn`
 
 ### Installation
-```bash
-# Clone the repository or navigate to project directory
-cd BG_portfolio
 
-# Install dependencies
-npm install
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sachdeore/portfolio.git
+   cd portfolio
+   ```
 
-# Start local development server with Hot Module Replacement (HMR)
-npm run dev
-```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-Visit `http://localhost:5173/` in your browser.
+3. **Start the local development server**:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+   The compiled assets will be output to the `dist/` directory.
+
+5. **Preview production build**:
+   ```bash
+   npm run preview
+   ```
 
 ---
 
-## 📦 Production Build & Deployment
+## 🌐 Deployment
 
-To generate an optimized production bundle:
-```bash
-npm run build
-```
+This project is optimized for deployment on modern static hosting platforms:
 
-This compiles optimized HTML, CSS, and JS assets into the `dist/` directory.
+- **Netlify**: Connect your GitHub repository, set build command to `npm run build`, and publish directory to `dist`.
+- **Vercel**: Import repository; Vercel detects Vite automatically.
+- **GitHub Pages**: Build the project and deploy the `dist/` folder via GitHub Actions.
 
-### Deploy to Netlify
-1. Connect your repository to Netlify.
-2. Build command: `npm run build`
-3. Publish directory: `dist`
+---
 
-### Deploy to Vercel
-```bash
-npx vercel
-```
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact & Connect
+
+**Sachin Santosh Deore**  
+DevOps Engineer | Cloud & CI/CD Specialist  
+- **Email**: [deoressachin@gmail.com](mailto:deoressachin@gmail.com)  
+- **LinkedIn**: [linkedin.com/in/sachin-sdeore](http://linkedin.com/in/sachin-sdeore)  
+- **GitHub**: [github.com/sachdeore](https://github.com/sachdeore)
